@@ -1,0 +1,26 @@
+{
+  "status": "done",
+  "assets": {
+    "0b0b62a0b524f3515269c4f063e9ec71.png": {
+      "name": "0b0b62a0b524f3515269c4f063e9ec71.png",
+      "path": "/home/danish/Desktop/Alban/Project/Django-With-React-Web-Sale/djangowebsale/frontend/assets/dist/0b0b62a0b524f3515269c4f063e9ec71.png",
+      "publicPath": "/static/dist/0b0b62a0b524f3515269c4f063e9ec71.png"
+    },
+    "56e6fc5ffc842374c10b7013c1afcfb3.jpg": {
+      "name": "56e6fc5ffc842374c10b7013c1afcfb3.jpg",
+      "path": "/home/danish/Desktop/Alban/Project/Django-With-React-Web-Sale/djangowebsale/frontend/assets/dist/56e6fc5ffc842374c10b7013c1afcfb3.jpg",
+      "publicPath": "/static/dist/56e6fc5ffc842374c10b7013c1afcfb3.jpg"
+    },
+    "staticfiles-9e3a1d07aacab536b547.js": {
+      "name": "staticfiles-9e3a1d07aacab536b547.js",
+      "path": "/home/danish/Desktop/Alban/Project/Django-With-React-Web-Sale/djangowebsale/frontend/assets/dist/staticfiles-9e3a1d07aacab536b547.js",
+      "publicPath": "/static/dist/staticfiles-9e3a1d07aacab536b547.js"
+    }
+  },
+  "chunks": {
+    "staticfiles": [
+      "staticfiles-9e3a1d07aacab536b547.js"
+    ]
+  },
+  "publicPath": "/static/dist/"
+}

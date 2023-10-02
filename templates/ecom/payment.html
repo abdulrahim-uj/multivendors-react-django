@@ -1,0 +1,35 @@
+{% block body %}
+
+{% load static %}
+
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+
+    var options_pro = {
+       
+      // Enter the Key ID generated from the Dashboard
+      key: "rzp_test_8owKWhpJrbOci8",
+       
+      // Amount is in currency subunits.
+      // Default currency is INR. Hence,
+      // 50000 refers to 50000 paise
+      amount: "{{payment.amount | safe}}",
+      currency: "INR",
+       
+      // Your/store name.
+      name: "React With Django",
+       
+      // Pass the `id` obtained in the response of Step 1
+      order_id: "{{ payment.id }}",
+      callback_url: "payment",
+    };
+
+    var rzp3 = new Razorpay(options_pro);
+
+    rzp3.open();
+    e.preventDefault();
+
+      </script>
+
+    {% endblock body %}
